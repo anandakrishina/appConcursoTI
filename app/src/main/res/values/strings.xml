@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">ExAppBarMenu_Krishina</string>
+    <string name="simulado_ti">SIMULADO TI</string>
+    <string name="estude_para_concurso">Estude Para Concurso</string>
+
+    <string-array name="perguntasJava">
+        <item> (UNEMAT - Analista de Sistemas - 2024) Em um projeto desenvolvido na linguagem Java, considere um método P que chama um
+            método Q. Existe uma palavra que, quando colocada na assinatura do método Q,
+            faz com que, caso ocorra uma exceção nesse método, o tratamento dessa exceção seja
+            da responsabilidade do método P.</item>
+        <item>(UNEMAT - Analista de Sistemas - 2024) É uma característica da linguagem Java conseguir representar a</item>
+        <item>(Prefeitura de Rosário - Técnico em Informática - 2024) Assinale o componente da plataforma Java que é responsável por executar programas Java em diferentes sistemas operacionais.</item>
+    </string-array>
+
+
+    <string-array name="opcao0Java">
+        <item>A) catch</item>
+        <item>B) Exception</item>
+        <item>C) finally</item>
+        <item>D) throws</item>
+        <item>E) try</item>
+    </string-array>
+
+    <string-array name="opcao1Java">
+        <item>A) codificação de métodos completos em interfaces</item>
+        <item>B) herança múltipla de interface</item>
+        <item>C) herança múltipla de classe</item>
+        <item>D) instanciação de classes abstratas</item>
+        <item>E) instanciação de interfaces</item>
+    </string-array>
+
+    <string-array name="opcao2Java">
+        <item>A) Java Script</item>
+        <item>B) Máquina Virtual Java (JVM)</item>
+        <item>C) Java Compiler</item>
+        <item>D) Java Debugger</item>
+        <item>D) Java Simple</item>
+    </string-array>
+
+    <integer-array name="respostaCorretaJava">
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="explicacaoJava">
+        <item>A palavra throws é usada na assinatura de um método para indicar que ele pode lançar uma ou mais exceções.
+            Isso delega a responsabilidade de tratamento dessas exceções para o método que chamou o método que lança a exceção.</item>
+        <item> A herança múltipla de interface é uma característica da linguagem Java.
+            Em Java, uma classe pode implementar várias interfaces, o que permite a herança múltipla de comportamento.
+            Isso é diferente da herança múltipla de classes, que não é permitida em Java.</item>
+        <item>A JVM (Java Virtual Machine) é responsável por executar programas Java
+            em diferentes sistemas operacionais, garantindo a portabilidade do código Java.</item>
+    </string-array>
+
+    <string-array name="perguntasPHP">
+        <item>(Concurso X - Desenvolvedor PHP - 2024) Em PHP, qual palavra-chave é usada para criar uma função anônima?</item>
+        <item>(Concurso Y - Desenvolvedor Web - 2024) Qual é a diferença entre `include` e `require` em PHP?</item>
+        <item>(Concurso Z - Programador PHP - 2024) O que significa a função `empty()` em PHP?</item>
+    </string-array>
+
+    <string-array name="opcao0PHP">
+        <item>A) function</item>
+        <item>B) `include` lança um aviso, `require` lança um erro fatal</item>
+        <item>C) Retorna true se a variável não estiver vazia</item>
+        <item>D) lambda</item>
+        <item>E) closure</item>
+    </string-array>
+
+    <string-array name="opcao1PHP">
+        <item>A) fn</item>
+        <item>B) `require` lança um aviso, `include` lança um erro fatal</item>
+        <item>C) Retorna true se a variável estiver vazia</item>
+        <item>D) true se a variável for nula</item>
+        <item>E) verifica se a variável existe</item>
+    </string-array>
+
+    <string-array name="opcao2PHP">
+        <item>A) anonymous</item>
+        <item>B) Ambos lançam o mesmo tipo de erro</item>
+        <item>C) Retorna false se a variável não estiver vazia</item>
+        <item>D) false se a variável for vazia</item>
+        <item>E) Apenas verifica variáveis numéricas</item>
+    </string-array>
+
+    <integer-array name="respostaCorretaPHP">
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="explicacaoPHP">
+        <item>A palavra-chave `function` é usada para criar funções anônimas em PHP. Esta função pode ser atribuída a uma variável e passada como argumento para outras funções.</item>
+        <item>A diferença entre `include` e `require` em PHP é que `include` emite um aviso (warning) quando não consegue incluir o arquivo, mas continua a execução, enquanto `require` emite um erro fatal e interrompe a execução.</item>
+        <item>A função `empty()` em PHP retorna true se a variável estiver vazia (sem valor) ou não estiver definida.</item>
+    </string-array>
+
+</resources>
